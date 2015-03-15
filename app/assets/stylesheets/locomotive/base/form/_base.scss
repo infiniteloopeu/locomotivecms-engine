@@ -62,7 +62,7 @@
     }
 
     .has-error {
-      @include form-control-validation($text-color, $input-border, $state-danger-bg);
+      // @include form-control-validation($text-color, $input-border, $state-danger-bg);
     }
   }
 }
