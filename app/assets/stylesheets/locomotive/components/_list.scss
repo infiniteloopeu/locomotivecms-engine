@@ -85,7 +85,7 @@
 
     .sortable-placeholder {
       height: $content_list_item_min_height;
-      @include make-sm-column(12);
+      // @include make-sm-column(12);
 
       background-color: $content_list_item_placeholder_background;
 

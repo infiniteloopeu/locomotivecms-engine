@@ -53,7 +53,7 @@
 
         .sortable-placeholder {
           background-color: $form_input_array_placeholder_background;
-          @include make-row();
+          // @include make-row();
           height: $form_input_array_placeholder_height + $form_input_array_placeholder_margin * 2;
 
           .inner {

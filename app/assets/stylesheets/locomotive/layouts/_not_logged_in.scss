@@ -20,7 +20,7 @@ body {
     @include full-space();
     left: $grid-gutter-width;
     right: $grid-gutter-width;
-    @include make-row();
+    // @include make-row();
 
     .content {
       height: 100%;
