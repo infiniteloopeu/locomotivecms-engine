@@ -13,7 +13,7 @@ module Locomotive
       protected
 
       def current_site
-        @current_site ||= request.env['locomotive.site']
+        @current_site = Locomotive::Site.first # ||= request.env['locomotive.site']
       end
 
       def current_site?
